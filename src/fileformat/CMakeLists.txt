@@ -3,7 +3,7 @@ if(WIN32)
 	set(OPENSSL_USE_STATIC_LIBS TRUE)
 	set(OPENSSL_MSVC_STATIC_RT ${RETDEC_MSVC_STATIC_RUNTIME})
 endif()
-find_package(OpenSSL 1.1.1t REQUIRED)
+find_package(OpenSSL)
 
 add_library(fileformat STATIC
 	utils/format_detection.cpp
@@ -101,7 +101,7 @@ target_link_libraries(fileformat
 		retdec::deps::tlsh
 		retdec::deps::stb
 		retdec::deps::authenticode
-		OpenSSL::Crypto
+		libcrypto-1_1-x64.lib
 )
 
 # Needed when OpenSSL is linked statically on Windows.

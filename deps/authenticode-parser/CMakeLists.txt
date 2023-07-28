@@ -1,5 +1,5 @@
 
-find_package(OpenSSL 1.1.1t REQUIRED)
+find_package(OpenSSL)
 
 add_library(authenticode STATIC
 	src/authenticode.c
@@ -34,7 +34,7 @@ target_include_directories(authenticode
 
 target_link_libraries(authenticode
 	PRIVATE
-		OpenSSL::Crypto
+		libcrypto-1_1-x64.lib
 )
 
 set_target_properties(authenticode
