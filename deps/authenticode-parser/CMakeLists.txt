@@ -1,5 +1,5 @@
 
-find_package(OpenSSL 1.1.1 REQUIRED)
+find_package(OpenSSL 1.1.1t REQUIRED)
 
 add_library(authenticode STATIC
 	src/authenticode.c

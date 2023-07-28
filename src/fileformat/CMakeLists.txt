@@ -3,7 +3,7 @@ if(WIN32)
 	set(OPENSSL_USE_STATIC_LIBS TRUE)
 	set(OPENSSL_MSVC_STATIC_RT ${RETDEC_MSVC_STATIC_RUNTIME})
 endif()
-find_package(OpenSSL 1.0.1 REQUIRED)
+find_package(OpenSSL 1.1.1t REQUIRED)
 
 add_library(fileformat STATIC
 	utils/format_detection.cpp
