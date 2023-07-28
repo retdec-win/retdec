@@ -1,5 +1,5 @@
 ```
-cmake -Bbuild -DCMAKE_PREFIX_PATH=deps\openssl-1-1-1-lib
+>cmake -Bbuild -DOPENSSL_CRYPTO_LIBRARY=deps\openssl-1-1-1-lib\lib -DOPENSSL_INCLUDE_DIR=deps\openssl-1-1-1-lib\include
 ```
 
 > **Warning**
