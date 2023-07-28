@@ -1,3 +1,7 @@
+```
+cmake -Bbuild -DCMAKE_PREFIX_PATH=deps\openssl-1-1-1-lib
+```
+
 > **Warning**
 >
 > The RetDec project is currently in a **limited maintenance mode** due to a lack of resources:
