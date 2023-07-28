@@ -1,0 +1,3 @@
+[submodule "deps/openssl-1-1-1-lib"]
+	path = deps/openssl-1-1-1-lib
+	url = https://github.com/retdec-win/openssl-1-1-1-lib
