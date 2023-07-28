@@ -27,7 +27,7 @@ set(KEYSTONE_ARCHIVE_SHA256
 )
 
 set(LLVM_URL
-    "https://github.com/avast/llvm/archive/2a1f3d8a97241c6e91710be8f84cf3cf80c03390.zip"
+    "https://github.com/retdec-win/llvm/archive/2a1f3d8a97241c6e91710be8f84cf3cf80c03390.zip"
     CACHE STRING "URL of LLVM archive to use."
 )
 set(LLVM_ARCHIVE_SHA256
@@ -45,7 +45,7 @@ set(YARA_ARCHIVE_SHA256
 )
 
 set(YARAMOD_URL
-    "https://github.com/avast/yaramod/archive/aa06dd408c492a8f4488774caf2ee105ccc23ab5.zip"
+    "https://github.com/retdec-win/yaramod/archive/aa06dd408c492a8f4488774caf2ee105ccc23ab5.zip"
     CACHE STRING "URL of YaraMod archive to use."
 )
 set(YARAMOD_ARCHIVE_SHA256
